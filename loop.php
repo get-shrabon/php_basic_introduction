@@ -1,3 +1,5 @@
+<!--------------------------------- for Loop -------------------------------->
+
 <h5 class="title">For Loop</h5>
 <ul class="items">
     <?php
@@ -14,7 +16,7 @@ foreach ($cars as $car) {
     echo "$car <br/>";
 }
 ?>
-<!--------------------------------- For Loop with Break -------------------------------->
+<!--------------------------------- for Loop with Break -------------------------------->
 <h5 class="title">For Loop with Break</h5>
 <?php
 for ($i = 1; $i <= 10; $i++) {

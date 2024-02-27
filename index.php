@@ -36,6 +36,10 @@
                     <textarea name="msg" id="" cols="30" rows="10" placeholder="Message"></textarea>
                     <input type="submit" value="Submit">
                 </form>
+                <p>Today date is <?php echo date("y.m.d")?></p>
+                <p>Now time is <?php
+                date_default_timezone_set("Asia/Dhaka");
+                echo date("h.i.sa")?></p>
             </div>
             <div class="loop_wrapper">
                 <?php require_once("loop.php") ?>
