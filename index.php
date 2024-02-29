@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP First Introduction</title>
-
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -36,7 +35,7 @@
                     <textarea name="msg" id="" cols="30" rows="10" placeholder="Message"></textarea>
                     <input type="submit" value="Submit">
                 </form>
-                <p>Today date is
+                <p class="text-4xl">Today date is
                     <?php echo date("y.m.d") ?>
                 </p>
                 <p>Now time is
