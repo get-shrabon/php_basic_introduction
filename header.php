@@ -1,10 +1,9 @@
 
 <header>
     <ul class="nav-items">
-        <li>nav-item1</li>
-        <li>nav-item2</li>
-        <li>nav-item3</li>
-        <li>nav-item4</li>
-        <li>nav-item5</li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="index.php">Service</a></li>
+        <li><a href="index.php">Contact</a></li>
     </ul>
 </header>

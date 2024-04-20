@@ -44,7 +44,7 @@ form {
 }
 
 .my_wrapper header {
-  background-color: darkgoldenrod;
+  background-color: darkgoldenrod !important;
   padding: 10px;
 }
 
@@ -95,3 +95,7 @@ footer {
 
 
 
+.about h1{
+text-align: center;
+padding-top: 100px;
+}
