@@ -93,9 +93,12 @@ footer {
 
 
 
-
-
-.about h1{
-text-align: center;
-padding-top: 100px;
+.service header{
+  padding: 20px 0;
+  background-color: burlywood;
+}
+.service h1{
+  font-size: 70px;
+  text-align: center;
+  padding-top: 100px;
 }
